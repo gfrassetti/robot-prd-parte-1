@@ -164,3 +164,92 @@
 2022-07-05 13:49:08,056:INFO:Cargando file...
 2022-07-05 13:49:08,056:INFO:Iniciando sesion..
 2022-07-05 13:49:09,262:INFO:Cargando nueva ficha...
+2022-07-05 13:55:25,347:INFO:...Iniciando...
+2022-07-05 13:55:25,347:INFO:reading excel..
+2022-07-05 13:55:27,762:INFO:
+
+2022-07-05 13:55:27,762:INFO:====== WebDriver manager ======
+2022-07-05 13:55:29,062:INFO:Current google-chrome version is 103.0.5060
+2022-07-05 13:55:29,062:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-05 13:55:29,194:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-05 13:55:31,591:INFO:Cargando file...
+2022-07-05 13:55:31,591:INFO:Iniciando sesion..
+2022-07-05 13:55:32,778:INFO:Cargando nueva ficha...
+2022-07-05 13:56:39,145:INFO:Cargando insumo
+2022-07-05 13:57:01,583:INFO:Cargando insumo
+2022-07-05 13:57:26,020:INFO:Cargando insumo
+2022-07-05 13:57:50,510:INFO:Cargando insumo
+2022-07-05 13:58:15,063:INFO:Cargando insumo
+2022-07-05 14:04:06,966:INFO:...Iniciando...
+2022-07-05 14:04:06,966:INFO:reading excel..
+2022-07-05 14:04:09,394:INFO:
+
+2022-07-05 14:04:09,395:INFO:====== WebDriver manager ======
+2022-07-05 14:04:10,742:INFO:Current google-chrome version is 103.0.5060
+2022-07-05 14:04:10,742:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-05 14:04:10,871:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-05 14:04:13,298:INFO:Cargando file...
+2022-07-05 14:04:13,298:INFO:Iniciando sesion..
+2022-07-05 14:04:14,497:INFO:Cargando nueva ficha...
+2022-07-05 14:05:20,944:INFO:Cargando insumo
+2022-07-05 14:05:43,375:INFO:Cargando insumo
+2022-07-05 14:06:07,822:INFO:Cargando insumo
+2022-07-05 14:08:29,804:INFO:...Iniciando...
+2022-07-05 14:08:29,804:INFO:reading excel..
+2022-07-05 14:08:32,437:INFO:
+
+2022-07-05 14:08:32,438:INFO:====== WebDriver manager ======
+2022-07-05 14:08:33,722:INFO:Current google-chrome version is 103.0.5060
+2022-07-05 14:08:33,722:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-05 14:08:33,835:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-05 14:08:39,353:INFO:Cargando file...
+2022-07-05 14:08:39,353:INFO:Iniciando sesion..
+2022-07-05 14:08:40,555:INFO:Cargando nueva ficha...
+2022-07-05 14:09:57,651:INFO:Cargando insumo
+2022-07-05 14:10:16,024:INFO:Cargando insumo
+2022-07-05 14:10:36,368:INFO:Cargando insumo
+2022-07-05 14:10:56,772:INFO:Cargando insumo
+2022-07-05 14:11:17,098:INFO:Cargando insumo
+2022-07-05 14:11:41,208:INFO:...Iniciando...
+2022-07-05 14:11:41,208:INFO:reading excel..
+2022-07-05 14:11:43,799:INFO:
+
+2022-07-05 14:11:43,799:INFO:====== WebDriver manager ======
+2022-07-05 14:11:45,113:INFO:Current google-chrome version is 103.0.5060
+2022-07-05 14:11:45,113:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-05 14:11:45,246:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-05 14:11:50,053:INFO:Cargando file...
+2022-07-05 14:11:50,054:INFO:Iniciando sesion..
+2022-07-05 14:11:51,265:INFO:Cargando nueva ficha...
+2022-07-05 14:13:09,151:INFO:Cargando insumo
+2022-07-05 14:13:27,538:INFO:Cargando insumo
+2022-07-05 14:13:47,915:INFO:Cargando insumo
+2022-07-05 14:15:13,250:INFO:...Iniciando...
+2022-07-05 14:15:13,250:INFO:reading excel..
+2022-07-05 14:15:15,755:INFO:
+
+2022-07-05 14:15:15,755:INFO:====== WebDriver manager ======
+2022-07-05 14:15:17,068:INFO:Current google-chrome version is 103.0.5060
+2022-07-05 14:15:17,069:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-05 14:15:17,167:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-05 14:15:19,683:INFO:Cargando file...
+2022-07-05 14:15:19,683:INFO:Iniciando sesion..
+2022-07-05 14:15:20,908:INFO:Cargando nueva ficha...
+2022-07-05 14:16:24,055:INFO:Cargando insumo
+2022-07-05 14:16:46,440:INFO:Cargando insumo
+2022-07-05 14:17:09,862:INFO:Cargando insumo
+2022-07-05 14:18:29,568:INFO:...Iniciando...
+2022-07-05 14:18:29,568:INFO:reading excel..
+2022-07-05 14:18:32,184:INFO:
+
+2022-07-05 14:18:32,185:INFO:====== WebDriver manager ======
+2022-07-05 14:18:33,589:INFO:Current google-chrome version is 103.0.5060
+2022-07-05 14:18:33,590:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-05 14:18:33,724:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-05 14:18:36,341:INFO:Cargando file...
+2022-07-05 14:18:36,341:INFO:Iniciando sesion..
+2022-07-05 14:18:37,500:INFO:Cargando nueva ficha...
+2022-07-05 14:19:49,719:INFO:Cargando insumo
+2022-07-05 14:20:10,107:INFO:Cargando insumo
+2022-07-05 14:20:31,424:INFO:Cargando insumo
+2022-07-05 14:20:52,649:INFO:Cargando insumo

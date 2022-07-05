@@ -150,13 +150,6 @@ class LoadFile:
             time.sleep(2)
             actions.send_keys(Keys.ENTER)
             actions.perform()
-            time.sleep(2)
-            actions.send_keys(Keys.ENTER)
-            actions.perform()
-            time.sleep(2)
-            actions.send_keys(Keys.TAB)
-            actions.perform()
-            time.sleep(2)
         else:
             actions.send_keys(Keys.ESCAPE)
             actions.perform()
@@ -382,7 +375,9 @@ class LoadFile:
             if insumo_2 != None:
                 agregar_insumo.click()
                 actions.send_keys(Keys.TAB)
+                time.sleep(2)
                 actions.perform()
+                time.sleep(2)
                 self.load_insumo(actions, insumo_2, color_insumo2, cantidad_insumo_2)
             else:
                 actions.send_keys(Keys.ESCAPE)
@@ -395,8 +390,9 @@ class LoadFile:
             if insumo_3 != None:
                 agregar_insumo.click()
                 actions.send_keys(Keys.TAB)
+                time.sleep(2)
                 actions.perform()
-                time.sleep(1)
+                time.sleep(2)
                 self.load_insumo(actions, insumo_3, color_insumo3, cantidad_insumo_3)
             else:
                 actions.send_keys(Keys.ESCAPE)
@@ -409,8 +405,9 @@ class LoadFile:
             if insumo_4 != None:
                 agregar_insumo.click()
                 actions.send_keys(Keys.TAB)
+                time.sleep(2)
                 actions.perform()
-                time.sleep(1)
+                time.sleep(2)
                 self.load_insumo(actions, insumo_4, color_insumo4, cantidad_insumo_4)
 
             else:
@@ -424,8 +421,9 @@ class LoadFile:
             if insumo_5 != None:
                 agregar_insumo.click()
                 actions.send_keys(Keys.TAB)
+                time.sleep(2)
                 actions.perform()
-                time.sleep(1)
+                time.sleep(2)
                 self.load_insumo(actions, insumo_5, color_insumo5, cantidad_insumo_5)
 
             else:
@@ -439,8 +437,9 @@ class LoadFile:
             if insumo_6 != None:
                 agregar_insumo.click()
                 actions.send_keys(Keys.TAB)
+                time.sleep(2)
                 actions.perform()
-                time.sleep(1)
+                time.sleep(2)
                 self.load_insumo(actions, insumo_6, color_insumo6, cantidad_insumo_6)
             else:
                 actions.send_keys(Keys.ESCAPE)
