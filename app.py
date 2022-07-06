@@ -1,5 +1,4 @@
 from distutils.log import debug
-from regex import I
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,10 +9,21 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import logging
+import os
+
+
+path = "./FT_a_procesar"
+contenido = os.listdir(path)
+fichas = []
+
+for ficha in contenido:
+    if os.path.isfile(os.path.join(path, ficha)) and ficha.endswith('.xlsm'):
+        fichas.append(ficha)
+print(fichas)
 
 logging.basicConfig(
-    filename="app.log",
-    level=logging.INFO,
+    filename="app.txt",
+    level=logging.DEBUG,
     format="%(asctime)s:%(levelname)s:%(message)s",
 )
 
@@ -29,11 +39,6 @@ import time
 
 
 logging.info("...Iniciando...")
-logging.info("reading excel..")
-
-
-wb = load_workbook("fichas/PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm", data_only=True)
-ws = wb.active
 
 # driver_service = Service(executable_path="./selenium-driver/chromedriver.exe")
 driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -65,7 +70,8 @@ class Login:
 
 
 class LoadFile:
-    logging.info("Cargando file...")
+    def __init__(self, ficha):
+        self.ficha = ficha
 
     def loop(self, rango_cod_color, lista_cod_color):
         # Iterar por cod de color
@@ -130,7 +136,7 @@ class LoadFile:
 
     def load_insumo(self, actions, insumo, color_insumo, cantidad):
         if insumo != None:
-            logging.info("Cargando insumo")
+            logging.info(f'Cargando el insumo {insumo}')
             time.sleep(2)
             actions.send_keys(insumo + "." + color_insumo)
             actions.perform()
@@ -158,7 +164,7 @@ class LoadFile:
 
     def load_insumo2(self, actions, insumo, i, cantidad):
         if insumo != None:
-            logging.info("Cargando insumo")
+            logging.info(f'Cargando el insumo {insumo}')
             time.sleep(2)
             actions.send_keys(insumo + "." + i)
             actions.perform()
@@ -188,7 +194,7 @@ class LoadFile:
 
     def load_insumo_por_talle(self, actions, insumo, color_insumo, cantidad, i):
         if insumo != None and color_insumo != None:
-            logging.info("Cargando insumo")
+            logging.info(f'Cargando el insumo {insumo}')
             time.sleep(1)
             actions.send_keys(insumo + "." + color_insumo)
             actions.perform()
@@ -235,8 +241,13 @@ class LoadFile:
 
     def load_new(self):
         try:
+            logging.info("Cargando file...")
+            logging.info("reading excel..")
+            wb = load_workbook(f'./FT_a_procesar/{self.ficha}', data_only=True)
+            ws = wb.active
+
             time.sleep(1)
-            logging.info("Cargando nueva ficha...")
+            logging.info(f'Cargando ficha: {self.ficha}')
             btn_produccion = WebDriverWait(driver, 35).until(
                 expected_conditions.presence_of_element_located(
                     (
@@ -290,8 +301,9 @@ class LoadFile:
             time.sleep(3)
             actions.send_keys(Keys.TAB)
             actions.perform()
+            time.sleep(3)
             producto = ws["B2"].value
-            time.sleep(1)
+            time.sleep(3)
             actions.send_keys(producto)
             time.sleep(2)
             actions.perform()
@@ -311,7 +323,7 @@ class LoadFile:
 
             btn_add_rule = driver.find_element(
                 By.XPATH,
-                "//*[@id='ext-gen647' or @id='ext-gen649' or @id='ext-gen651' or @id='ext-gen655'or @id='ext-gen657' or @id='ext-gen907' or @id='ext-gen653' or @id='ext-gen905' or @id='ext-gen905' or @id='ext-gen664' or @id='ext-gen672']",
+                "//*[@id='ext-gen666']",
             )
 
             btn_add_rule.click()
@@ -447,15 +459,19 @@ class LoadFile:
                 actions.send_keys(Keys.ESCAPE)
                 actions.perform()
 
+            btn_guardar = driver.find_element(By.XPATH, "//*[@id='ext-gen600']")
+            btn_guardar.click()
+            time.sleep(1)
+            btn_si = driver.find_element(By.XPATH, "//button[contains(text(),'Sí')]")
+            time.sleep(3)
+            btn_si.click()
+            btn_ok = driver.find_element(By.XPATH, "//button[contains(text(),'OK')]")
+            time.sleep(3)
+            btn_ok.click()        
             # -------------------------------------------------- ---------------------------------------------------------------------------
-        except (TimeoutException) as error:
-            logging.warning("Error: ", error)
-            logging.info("Erorr: ", error)
-            print(error)
-            driver.close()
         except (Exception) as error_excepction:
             logging.warning("Error: ", error_excepction)
-            logging.info("Erorr: ", error_excepction)
+            logging.info("Error: ", error_excepction)
             print(error_excepction)
 
 
@@ -463,7 +479,9 @@ class LoadFile:
 log = Login("Gfrassetti", "Guido")
 log.login()
 
-
-# Cargar Nueva ficha
-load = LoadFile()
-load.load_new()
+for i in fichas:
+    # Cargar Nueva ficha
+    print(i)
+    logging.info(f'Cargando ficha: {i}')
+    load = LoadFile(i)
+    load.load_new()

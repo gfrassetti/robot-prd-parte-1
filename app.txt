@@ -1,0 +1,448 @@
+2022-07-06 16:18:52,412:INFO:...Iniciando...
+2022-07-06 16:18:52,413:INFO:reading excel..
+2022-07-06 16:19:43,003:INFO:...Iniciando...
+2022-07-06 16:19:43,003:INFO:reading excel..
+2022-07-06 16:19:45,625:INFO:====== WebDriver manager ======
+2022-07-06 16:19:46,454:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:19:46,455:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:19:46,728:INFO:About to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_win32.zip
+2022-07-06 16:19:47,293:INFO:Driver has been saved in cache [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53]
+2022-07-06 16:19:53,429:INFO:Cargando file...
+2022-07-06 16:19:53,430:INFO:Iniciando sesion..
+2022-07-06 16:19:54,837:INFO:Cargando nueva ficha...
+2022-07-06 16:21:12,184:INFO:...Iniciando...
+2022-07-06 16:21:12,185:INFO:reading excel..
+2022-07-06 16:21:14,338:INFO:====== WebDriver manager ======
+2022-07-06 16:21:14,874:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:21:14,874:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:21:15,106:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:21:21,057:INFO:Cargando file...
+2022-07-06 16:21:21,057:INFO:Iniciando sesion..
+2022-07-06 16:21:23,392:INFO:Cargando nueva ficha...
+2022-07-06 16:29:52,157:INFO:...Iniciando...
+2022-07-06 16:29:52,158:INFO:====== WebDriver manager ======
+2022-07-06 16:29:52,778:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:29:52,778:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:29:52,966:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:29:58,945:INFO:Iniciando sesion..
+2022-07-06 16:29:59,230:INFO:Cargando file...
+2022-07-06 16:29:59,230:INFO:reading excel..
+2022-07-06 16:30:06,186:INFO:Cargando nueva ficha...
+2022-07-06 16:31:32,145:INFO:...Iniciando...
+2022-07-06 16:31:32,146:INFO:====== WebDriver manager ======
+2022-07-06 16:31:32,986:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:31:32,987:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:31:33,143:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:31:39,074:INFO:Iniciando sesion..
+2022-07-06 16:31:39,329:INFO:Cargando file...
+2022-07-06 16:31:39,329:INFO:reading excel..
+2022-07-06 16:31:42,674:INFO:Cargando nueva ficha...
+2022-07-06 16:33:32,883:INFO:...Iniciando...
+2022-07-06 16:33:32,885:INFO:====== WebDriver manager ======
+2022-07-06 16:33:33,646:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:33:33,647:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:33:33,814:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:33:39,898:INFO:Iniciando sesion..
+2022-07-06 16:33:40,180:INFO:Cargando file...
+2022-07-06 16:33:40,180:INFO:reading excel..
+2022-07-06 16:33:48,089:INFO:Cargando nueva ficha...
+2022-07-06 16:34:55,613:INFO:...Iniciando...
+2022-07-06 16:34:55,614:INFO:====== WebDriver manager ======
+2022-07-06 16:34:56,254:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:34:56,255:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:34:56,447:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:35:02,691:INFO:Iniciando sesion..
+2022-07-06 16:35:03,157:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-06 16:35:03,157:INFO:Cargando file...
+2022-07-06 16:35:03,157:INFO:reading excel..
+2022-07-06 16:35:06,632:INFO:Cargando nueva ficha...
+2022-07-06 16:36:10,019:INFO:Cargando insumo
+2022-07-06 16:36:30,830:INFO:Cargando insumo
+2022-07-06 16:36:52,671:INFO:Cargando insumo
+2022-07-06 16:37:14,544:INFO:Cargando insumo
+2022-07-06 16:37:36,571:INFO:Cargando insumo
+2022-07-06 16:44:33,097:INFO:...Iniciando...
+2022-07-06 16:44:33,097:INFO:====== WebDriver manager ======
+2022-07-06 16:44:33,979:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:44:33,980:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:44:34,308:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:44:41,222:INFO:Iniciando sesion..
+2022-07-06 16:44:41,522:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-06 16:44:41,522:INFO:Cargando file...
+2022-07-06 16:44:41,523:INFO:reading excel..
+2022-07-06 16:44:48,927:INFO:Cargando nueva ficha...
+2022-07-06 16:45:55,426:INFO:Cargando insumo
+2022-07-06 16:46:16,325:INFO:Cargando insumo
+2022-07-06 16:46:38,123:INFO:Cargando insumo
+2022-07-06 16:47:00,004:INFO:Cargando insumo
+2022-07-06 16:47:21,997:INFO:Cargando insumo
+2022-07-06 16:53:33,717:INFO:====== WebDriver manager ======
+2022-07-06 16:53:34,388:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:53:34,388:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:53:34,548:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:59:37,006:INFO:...Iniciando...
+2022-07-06 16:59:37,009:INFO:====== WebDriver manager ======
+2022-07-06 16:59:37,668:INFO:Current google-chrome version is 103.0.5060
+2022-07-06 16:59:37,670:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-06 16:59:37,675:DEBUG:Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-07-06 16:59:37,943:DEBUG:https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_103.0.5060 HTTP/1.1" 200 13
+2022-07-06 16:59:37,953:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
+2022-07-06 16:59:38,480:DEBUG:POST http://localhost:50006/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2022-07-06 16:59:38,481:DEBUG:Starting new HTTP connection (1): localhost:50006
+2022-07-06 16:59:39,173:DEBUG:http://localhost:50006 "POST /session HTTP/1.1" 200 790
+2022-07-06 16:59:39,174:DEBUG:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.66","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Guido\\AppData\\Local\\Temp\\scoped_dir19324_2013057444"},"goog:chromeOptions":{"debuggerAddress":"localhost:50010"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"3c18575f968546ff6ca4d6f9641373fd"}} | headers=HTTPHeaderDict({'Content-Length': '790', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:39,174:DEBUG:Finished Request
+2022-07-06 16:59:39,174:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/window/maximize {}
+2022-07-06 16:59:39,301:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/window/maximize HTTP/1.1" 200 51
+2022-07-06 16:59:39,302:DEBUG:Remote response: status=200 | data={"value":{"height":688,"width":1296,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:39,302:DEBUG:Finished Request
+2022-07-06 16:59:39,302:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/url {"url": "http://vpn.grisino.com:8001/maertest"}
+2022-07-06 16:59:40,515:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/url HTTP/1.1" 200 14
+2022-07-06 16:59:40,515:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:40,515:DEBUG:Finished Request
+2022-07-06 16:59:40,515:INFO:Iniciando sesion..
+2022-07-06 16:59:40,515:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "css selector", "value": "[id=\"ext-comp-1002\"]"}
+2022-07-06 16:59:40,556:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:40,557:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f8f5da7c-ecb8-4a2e-ad39-8c27973b834f"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:40,557:DEBUG:Finished Request
+2022-07-06 16:59:40,557:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/f8f5da7c-ecb8-4a2e-ad39-8c27973b834f/value {"text": "Gfrassetti", "value": ["G", "f", "r", "a", "s", "s", "e", "t", "t", "i"], "id": "f8f5da7c-ecb8-4a2e-ad39-8c27973b834f"}
+2022-07-06 16:59:40,641:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/f8f5da7c-ecb8-4a2e-ad39-8c27973b834f/value HTTP/1.1" 200 14
+2022-07-06 16:59:40,642:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:40,642:DEBUG:Finished Request
+2022-07-06 16:59:40,642:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "css selector", "value": "[id=\"ext-comp-1004\"]"}
+2022-07-06 16:59:40,656:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:40,656:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"23fb7ed8-1699-43fc-8e5e-b07ad96bfa27"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:40,656:DEBUG:Finished Request
+2022-07-06 16:59:40,656:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/23fb7ed8-1699-43fc-8e5e-b07ad96bfa27/value {"text": "Guido", "value": ["G", "u", "i", "d", "o"], "id": "23fb7ed8-1699-43fc-8e5e-b07ad96bfa27"}
+2022-07-06 16:59:40,721:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/23fb7ed8-1699-43fc-8e5e-b07ad96bfa27/value HTTP/1.1" 200 14
+2022-07-06 16:59:40,722:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:40,722:DEBUG:Finished Request
+2022-07-06 16:59:40,722:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "css selector", "value": "[id=\"ext-gen31\"]"}
+2022-07-06 16:59:40,732:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:40,733:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"38fdee4c-4e78-477b-a325-7295ebe56f62"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:40,733:DEBUG:Finished Request
+2022-07-06 16:59:40,733:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/38fdee4c-4e78-477b-a325-7295ebe56f62/click {"id": "38fdee4c-4e78-477b-a325-7295ebe56f62"}
+2022-07-06 16:59:40,801:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/38fdee4c-4e78-477b-a325-7295ebe56f62/click HTTP/1.1" 200 14
+2022-07-06 16:59:40,802:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:40,803:DEBUG:Finished Request
+2022-07-06 16:59:40,803:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-06 16:59:40,803:INFO:Cargando file...
+2022-07-06 16:59:40,803:INFO:reading excel..
+2022-07-06 16:59:44,367:INFO:Cargando nueva ficha...
+2022-07-06 16:59:44,368:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 16:59:45,870:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 404 1107
+2022-07-06 16:59:45,871:DEBUG:Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button\"}\n  (Session info: chrome=103.0.5060.66)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00886463+2188387]\n\tOrdinal0 [0x0081E461+1762401]\n\tOrdinal0 [0x00733D78+802168]\n\tOrdinal0 [0x00761880+989312]\n\tOrdinal0 [0x00761B1B+989979]\n\tOrdinal0 [0x0078E912+1173778]\n\tOrdinal0 [0x0077C824+1099812]\n\tOrdinal0 [0x0078CC22+1166370]\n\tOrdinal0 [0x0077C5F6+1099254]\n\tOrdinal0 [0x00756BE0+945120]\n\tOrdinal0 [0x00757AD6+948950]\n\tGetHandleVerifier [0x00B271F2+2712546]\n\tGetHandleVerifier [0x00B1886D+2652765]\n\tGetHandleVerifier [0x0091002A+520730]\n\tGetHandleVerifier [0x0090EE06+516086]\n\tOrdinal0 [0x0082468B+1787531]\n\tOrdinal0 [0x00828E88+1805960]\n\tOrdinal0 [0x00828F75+1806197]\n\tOrdinal0 [0x00831DF1+1842673]\n\tBaseThreadInitThunk [0x75BE6739+25]\n\tRtlGetFullPathName_UEx [0x77B78FEF+1215]\n\tRtlGetFullPathName_UEx [0x77B78FBD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1107', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:45,871:DEBUG:Finished Request
+2022-07-06 16:59:46,384:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 16:59:46,391:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 404 1107
+2022-07-06 16:59:46,391:DEBUG:Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button\"}\n  (Session info: chrome=103.0.5060.66)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00886463+2188387]\n\tOrdinal0 [0x0081E461+1762401]\n\tOrdinal0 [0x00733D78+802168]\n\tOrdinal0 [0x00761880+989312]\n\tOrdinal0 [0x00761B1B+989979]\n\tOrdinal0 [0x0078E912+1173778]\n\tOrdinal0 [0x0077C824+1099812]\n\tOrdinal0 [0x0078CC22+1166370]\n\tOrdinal0 [0x0077C5F6+1099254]\n\tOrdinal0 [0x00756BE0+945120]\n\tOrdinal0 [0x00757AD6+948950]\n\tGetHandleVerifier [0x00B271F2+2712546]\n\tGetHandleVerifier [0x00B1886D+2652765]\n\tGetHandleVerifier [0x0091002A+520730]\n\tGetHandleVerifier [0x0090EE06+516086]\n\tOrdinal0 [0x0082468B+1787531]\n\tOrdinal0 [0x00828E88+1805960]\n\tOrdinal0 [0x00828F75+1806197]\n\tOrdinal0 [0x00831DF1+1842673]\n\tBaseThreadInitThunk [0x75BE6739+25]\n\tRtlGetFullPathName_UEx [0x77B78FEF+1215]\n\tRtlGetFullPathName_UEx [0x77B78FBD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1107', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:46,391:DEBUG:Finished Request
+2022-07-06 16:59:46,898:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 16:59:46,913:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 404 1107
+2022-07-06 16:59:46,913:DEBUG:Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button\"}\n  (Session info: chrome=103.0.5060.66)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00886463+2188387]\n\tOrdinal0 [0x0081E461+1762401]\n\tOrdinal0 [0x00733D78+802168]\n\tOrdinal0 [0x00761880+989312]\n\tOrdinal0 [0x00761B1B+989979]\n\tOrdinal0 [0x0078E912+1173778]\n\tOrdinal0 [0x0077C824+1099812]\n\tOrdinal0 [0x0078CC22+1166370]\n\tOrdinal0 [0x0077C5F6+1099254]\n\tOrdinal0 [0x00756BE0+945120]\n\tOrdinal0 [0x00757AD6+948950]\n\tGetHandleVerifier [0x00B271F2+2712546]\n\tGetHandleVerifier [0x00B1886D+2652765]\n\tGetHandleVerifier [0x0091002A+520730]\n\tGetHandleVerifier [0x0090EE06+516086]\n\tOrdinal0 [0x0082468B+1787531]\n\tOrdinal0 [0x00828E88+1805960]\n\tOrdinal0 [0x00828F75+1806197]\n\tOrdinal0 [0x00831DF1+1842673]\n\tBaseThreadInitThunk [0x75BE6739+25]\n\tRtlGetFullPathName_UEx [0x77B78FEF+1215]\n\tRtlGetFullPathName_UEx [0x77B78FBD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1107', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:46,913:DEBUG:Finished Request
+2022-07-06 16:59:47,424:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 16:59:47,438:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 404 1107
+2022-07-06 16:59:47,440:DEBUG:Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button\"}\n  (Session info: chrome=103.0.5060.66)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00886463+2188387]\n\tOrdinal0 [0x0081E461+1762401]\n\tOrdinal0 [0x00733D78+802168]\n\tOrdinal0 [0x00761880+989312]\n\tOrdinal0 [0x00761B1B+989979]\n\tOrdinal0 [0x0078E912+1173778]\n\tOrdinal0 [0x0077C824+1099812]\n\tOrdinal0 [0x0078CC22+1166370]\n\tOrdinal0 [0x0077C5F6+1099254]\n\tOrdinal0 [0x00756BE0+945120]\n\tOrdinal0 [0x00757AD6+948950]\n\tGetHandleVerifier [0x00B271F2+2712546]\n\tGetHandleVerifier [0x00B1886D+2652765]\n\tGetHandleVerifier [0x0091002A+520730]\n\tGetHandleVerifier [0x0090EE06+516086]\n\tOrdinal0 [0x0082468B+1787531]\n\tOrdinal0 [0x00828E88+1805960]\n\tOrdinal0 [0x00828F75+1806197]\n\tOrdinal0 [0x00831DF1+1842673]\n\tBaseThreadInitThunk [0x75BE6739+25]\n\tRtlGetFullPathName_UEx [0x77B78FEF+1215]\n\tRtlGetFullPathName_UEx [0x77B78FBD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1107', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:47,440:DEBUG:Finished Request
+2022-07-06 16:59:47,950:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 16:59:47,967:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:47,967:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"2534a5c9-8924-4739-825b-c8939b7f841f"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:47,968:DEBUG:Finished Request
+2022-07-06 16:59:47,968:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/2534a5c9-8924-4739-825b-c8939b7f841f/click {"id": "2534a5c9-8924-4739-825b-c8939b7f841f"}
+2022-07-06 16:59:48,091:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/2534a5c9-8924-4739-825b-c8939b7f841f/click HTTP/1.1" 200 14
+2022-07-06 16:59:48,091:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:48,091:DEBUG:Finished Request
+2022-07-06 16:59:48,091:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "css selector", "value": "[id=\"menuPrincipalProducci\u00f3nFichas T?cnicas\"]"}
+2022-07-06 16:59:48,116:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:48,116:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"28a9eebf-f4a0-4563-a414-23c3cf731a1c"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:48,116:DEBUG:Finished Request
+2022-07-06 16:59:48,116:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/28a9eebf-f4a0-4563-a414-23c3cf731a1c/click {"id": "28a9eebf-f4a0-4563-a414-23c3cf731a1c"}
+2022-07-06 16:59:48,175:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/28a9eebf-f4a0-4563-a414-23c3cf731a1c/click HTTP/1.1" 200 14
+2022-07-06 16:59:48,175:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:48,175:DEBUG:Finished Request
+2022-07-06 16:59:48,175:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div[1]/div[6]/div[1]/div/div/div/div[3]"}
+2022-07-06 16:59:48,197:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 404 1060
+2022-07-06 16:59:48,198:DEBUG:Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[4]/div[2]/div/div/div/div[1]/div[6]/div[1]/div/div/div/div[3]\"}\n  (Session info: chrome=103.0.5060.66)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00886463+2188387]\n\tOrdinal0 [0x0081E461+1762401]\n\tOrdinal0 [0x00733D78+802168]\n\tOrdinal0 [0x00761880+989312]\n\tOrdinal0 [0x00761B1B+989979]\n\tOrdinal0 [0x0078E912+1173778]\n\tOrdinal0 [0x0077C824+1099812]\n\tOrdinal0 [0x0078CC22+1166370]\n\tOrdinal0 [0x0077C5F6+1099254]\n\tOrdinal0 [0x00756BE0+945120]\n\tOrdinal0 [0x00757AD6+948950]\n\tGetHandleVerifier [0x00B271F2+2712546]\n\tGetHandleVerifier [0x00B1886D+2652765]\n\tGetHandleVerifier [0x0091002A+520730]\n\tGetHandleVerifier [0x0090EE06+516086]\n\tOrdinal0 [0x0082468B+1787531]\n\tOrdinal0 [0x00828E88+1805960]\n\tOrdinal0 [0x00828F75+1806197]\n\tOrdinal0 [0x00831DF1+1842673]\n\tBaseThreadInitThunk [0x75BE6739+25]\n\tRtlGetFullPathName_UEx [0x77B78FEF+1215]\n\tRtlGetFullPathName_UEx [0x77B78FBD+1165]\n"}} | headers=HTTPHeaderDict({'Content-Length': '1060', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:48,198:DEBUG:Finished Request
+2022-07-06 16:59:48,703:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div[1]/div[6]/div[1]/div/div/div/div[3]"}
+2022-07-06 16:59:48,715:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:48,715:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"6a3990b1-1d83-41a8-9fb7-23d5cb459b0b"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:48,715:DEBUG:Finished Request
+2022-07-06 16:59:48,716:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/6a3990b1-1d83-41a8-9fb7-23d5cb459b0b/click {"id": "6a3990b1-1d83-41a8-9fb7-23d5cb459b0b"}
+2022-07-06 16:59:48,784:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/6a3990b1-1d83-41a8-9fb7-23d5cb459b0b/click HTTP/1.1" 200 14
+2022-07-06 16:59:48,784:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:48,784:DEBUG:Finished Request
+2022-07-06 16:59:48,785:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div[1]/div[6]/div[2]/div[1]/div/div/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 16:59:48,798:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:48,798:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"26f3feee-55f6-4a0d-bd30-f38db93de4a7"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:48,798:DEBUG:Finished Request
+2022-07-06 16:59:48,798:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/26f3feee-55f6-4a0d-bd30-f38db93de4a7/click {"id": "26f3feee-55f6-4a0d-bd30-f38db93de4a7"}
+2022-07-06 16:59:49,580:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/26f3feee-55f6-4a0d-bd30-f38db93de4a7/click HTTP/1.1" 200 14
+2022-07-06 16:59:49,581:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:49,581:DEBUG:Finished Request
+2022-07-06 16:59:59,592:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "//*[@id='ext-comp-1251']"}
+2022-07-06 16:59:59,611:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 16:59:59,612:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"c70006bb-f1e6-4c02-b6b2-c0f4e736cb16"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 16:59:59,612:DEBUG:Finished Request
+2022-07-06 17:00:00,613:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/c70006bb-f1e6-4c02-b6b2-c0f4e736cb16/value {"text": "V23 G - COL2 - 08", "value": ["V", "2", "3", " ", "G", " ", "-", " ", "C", "O", "L", "2", " ", "-", " ", "0", "8"], "id": "c70006bb-f1e6-4c02-b6b2-c0f4e736cb16"}
+2022-07-06 17:00:00,843:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/c70006bb-f1e6-4c02-b6b2-c0f4e736cb16/value HTTP/1.1" 200 14
+2022-07-06 17:00:00,844:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:00,844:DEBUG:Finished Request
+2022-07-06 17:00:03,854:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:00:03,880:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:03,880:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:03,881:DEBUG:Finished Request
+2022-07-06 17:00:06,885:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:00:06,948:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:06,949:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:06,950:DEBUG:Finished Request
+2022-07-06 17:00:14,976:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "G"}, {"type": "keyUp", "value": "G"}, {"type": "keyDown", "value": "2"}, {"type": "keyUp", "value": "2"}, {"type": "keyDown", "value": "R"}, {"type": "keyUp", "value": "R"}, {"type": "keyDown", "value": "L"}, {"type": "keyUp", "value": "L"}, {"type": "keyDown", "value": "1"}, {"type": "keyUp", "value": "1"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}]}]}
+2022-07-06 17:00:15,082:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:15,082:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:15,082:DEBUG:Finished Request
+2022-07-06 17:00:15,083:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue015"}, {"type": "keyUp", "value": "\ue015"}]}]}
+2022-07-06 17:00:15,111:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:15,111:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:15,112:DEBUG:Finished Request
+2022-07-06 17:00:15,112:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:00:15,136:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:15,137:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:15,137:DEBUG:Finished Request
+2022-07-06 17:00:18,150:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:00:18,218:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:18,218:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:18,219:DEBUG:Finished Request
+2022-07-06 17:00:18,220:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:00:18,247:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:18,248:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:18,248:DEBUG:Finished Request
+2022-07-06 17:00:18,248:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "#"}, {"type": "keyUp", "value": "#"}, {"type": "keyDown", "value": "S"}, {"type": "keyUp", "value": "S"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "1"}, {"type": "keyUp", "value": "1"}]}]}
+2022-07-06 17:00:18,285:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:18,285:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:18,287:DEBUG:Finished Request
+2022-07-06 17:00:22,289:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "//*[@id='ext-gen666']"}
+2022-07-06 17:00:22,334:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 17:00:22,334:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"34ae5286-2479-40ef-9f6d-3de34201b8a4"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:22,335:DEBUG:Finished Request
+2022-07-06 17:00:22,335:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/34ae5286-2479-40ef-9f6d-3de34201b8a4/click {"id": "34ae5286-2479-40ef-9f6d-3de34201b8a4"}
+2022-07-06 17:00:22,534:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/34ae5286-2479-40ef-9f6d-3de34201b8a4/click HTTP/1.1" 200 14
+2022-07-06 17:00:22,535:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:22,535:DEBUG:Finished Request
+2022-07-06 17:00:23,545:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "css selector", "value": "[id=\"ext-comp-1263\"]"}
+2022-07-06 17:00:23,574:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 17:00:23,574:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"50038e76-b206-4a8d-9e18-8d1bcb46344c"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:23,575:DEBUG:Finished Request
+2022-07-06 17:00:23,575:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/50038e76-b206-4a8d-9e18-8d1bcb46344c/value {"text": "100-CORTE ORIGINAL", "value": ["1", "0", "0", "-", "C", "O", "R", "T", "E", " ", "O", "R", "I", "G", "I", "N", "A", "L"], "id": "50038e76-b206-4a8d-9e18-8d1bcb46344c"}
+2022-07-06 17:00:23,697:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/50038e76-b206-4a8d-9e18-8d1bcb46344c/value HTTP/1.1" 200 14
+2022-07-06 17:00:23,697:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:23,697:DEBUG:Finished Request
+2022-07-06 17:00:24,706:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:00:24,809:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:24,809:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:24,809:DEBUG:Finished Request
+2022-07-06 17:00:24,810:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue00c"}, {"type": "keyUp", "value": "\ue00c"}]}]}
+2022-07-06 17:00:24,842:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:24,843:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:24,843:DEBUG:Finished Request
+2022-07-06 17:00:26,850:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 17:00:26,882:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 17:00:26,883:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"9d5c8d75-4473-4fa0-94b8-bb5044cfd394"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:26,883:DEBUG:Finished Request
+2022-07-06 17:00:31,887:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/9d5c8d75-4473-4fa0-94b8-bb5044cfd394/click {"id": "9d5c8d75-4473-4fa0-94b8-bb5044cfd394"}
+2022-07-06 17:00:32,112:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/9d5c8d75-4473-4fa0-94b8-bb5044cfd394/click HTTP/1.1" 200 14
+2022-07-06 17:00:32,113:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:32,113:DEBUG:Finished Request
+2022-07-06 17:00:34,126:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "/html/body/div[24]/div[2]/div[1]/div/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/em/button"}
+2022-07-06 17:00:34,160:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 17:00:34,160:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"21e7ec2b-ff7d-4c40-b5fd-2e6e83822792"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:34,161:DEBUG:Finished Request
+2022-07-06 17:00:37,161:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click {"id": "21e7ec2b-ff7d-4c40-b5fd-2e6e83822792"}
+2022-07-06 17:00:37,314:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click HTTP/1.1" 200 14
+2022-07-06 17:00:37,315:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:37,315:DEBUG:Finished Request
+2022-07-06 17:00:38,325:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:00:38,414:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:38,415:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:38,415:DEBUG:Finished Request
+2022-07-06 17:00:40,418:INFO:Cargando insumo
+2022-07-06 17:00:42,419:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "X"}, {"type": "keyUp", "value": "X"}, {"type": "keyDown", "value": "T"}, {"type": "keyUp", "value": "T"}, {"type": "keyDown", "value": "F"}, {"type": "keyUp", "value": "F"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "1"}, {"type": "keyUp", "value": "1"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "N"}, {"type": "keyUp", "value": "N"}, {"type": "keyDown", "value": "G"}, {"type": "keyUp", "value": "G"}]}]}
+2022-07-06 17:00:42,567:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:42,568:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:42,568:DEBUG:Finished Request
+2022-07-06 17:00:44,576:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:00:44,671:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:44,672:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:44,672:DEBUG:Finished Request
+2022-07-06 17:00:46,673:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:00:46,733:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:46,735:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:46,735:DEBUG:Finished Request
+2022-07-06 17:00:50,744:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "1"}, {"type": "keyUp", "value": "1"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "5"}, {"type": "keyUp", "value": "5"}]}]}
+2022-07-06 17:00:50,845:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:50,846:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:50,846:DEBUG:Finished Request
+2022-07-06 17:00:52,847:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:00:52,935:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:52,935:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:52,935:DEBUG:Finished Request
+2022-07-06 17:00:54,938:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:00:55,009:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:55,009:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:55,010:DEBUG:Finished Request
+2022-07-06 17:00:57,017:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click {"id": "21e7ec2b-ff7d-4c40-b5fd-2e6e83822792"}
+2022-07-06 17:00:57,115:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click HTTP/1.1" 200 14
+2022-07-06 17:00:57,116:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:57,116:DEBUG:Finished Request
+2022-07-06 17:00:59,116:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:00:59,196:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:00:59,198:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:00:59,198:DEBUG:Finished Request
+2022-07-06 17:01:01,209:INFO:Cargando insumo
+2022-07-06 17:01:03,210:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "X"}, {"type": "keyUp", "value": "X"}, {"type": "keyDown", "value": "T"}, {"type": "keyUp", "value": "T"}, {"type": "keyDown", "value": "F"}, {"type": "keyUp", "value": "F"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "9"}, {"type": "keyUp", "value": "9"}, {"type": "keyDown", "value": "9"}, {"type": "keyUp", "value": "9"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "N"}, {"type": "keyUp", "value": "N"}, {"type": "keyDown", "value": "G"}, {"type": "keyUp", "value": "G"}]}]}
+2022-07-06 17:01:03,365:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:03,365:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:03,365:DEBUG:Finished Request
+2022-07-06 17:01:05,379:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:05,485:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:05,485:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:05,485:DEBUG:Finished Request
+2022-07-06 17:01:07,490:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:01:07,547:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:07,547:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:07,548:DEBUG:Finished Request
+2022-07-06 17:01:11,558:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "2"}, {"type": "keyUp", "value": "2"}]}]}
+2022-07-06 17:01:11,646:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:11,647:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:11,647:DEBUG:Finished Request
+2022-07-06 17:01:13,655:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:13,703:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:13,704:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:13,704:DEBUG:Finished Request
+2022-07-06 17:01:15,713:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:15,788:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:15,788:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:15,789:DEBUG:Finished Request
+2022-07-06 17:01:18,802:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click {"id": "21e7ec2b-ff7d-4c40-b5fd-2e6e83822792"}
+2022-07-06 17:01:18,887:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click HTTP/1.1" 200 14
+2022-07-06 17:01:18,888:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:18,888:DEBUG:Finished Request
+2022-07-06 17:01:20,897:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:01:20,973:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:20,973:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:20,973:DEBUG:Finished Request
+2022-07-06 17:01:22,973:INFO:Cargando insumo
+2022-07-06 17:01:24,989:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "X"}, {"type": "keyUp", "value": "X"}, {"type": "keyDown", "value": "T"}, {"type": "keyUp", "value": "T"}, {"type": "keyDown", "value": "J"}, {"type": "keyUp", "value": "J"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "N"}, {"type": "keyUp", "value": "N"}, {"type": "keyDown", "value": "G"}, {"type": "keyUp", "value": "G"}]}]}
+2022-07-06 17:01:25,154:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:25,154:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:25,154:DEBUG:Finished Request
+2022-07-06 17:01:27,169:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:27,294:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:27,295:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:27,295:DEBUG:Finished Request
+2022-07-06 17:01:29,307:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:01:29,372:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:29,373:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:29,373:DEBUG:Finished Request
+2022-07-06 17:01:33,380:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "6"}, {"type": "keyUp", "value": "6"}]}]}
+2022-07-06 17:01:33,458:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:33,458:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:33,458:DEBUG:Finished Request
+2022-07-06 17:01:35,461:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:35,568:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:35,569:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:35,569:DEBUG:Finished Request
+2022-07-06 17:01:37,574:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:37,609:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:37,609:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:37,609:DEBUG:Finished Request
+2022-07-06 17:01:40,613:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click {"id": "21e7ec2b-ff7d-4c40-b5fd-2e6e83822792"}
+2022-07-06 17:01:40,707:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click HTTP/1.1" 200 14
+2022-07-06 17:01:40,708:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:40,708:DEBUG:Finished Request
+2022-07-06 17:01:42,716:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:01:42,805:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:42,806:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:42,807:DEBUG:Finished Request
+2022-07-06 17:01:44,818:INFO:Cargando insumo
+2022-07-06 17:01:46,833:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "X"}, {"type": "keyUp", "value": "X"}, {"type": "keyDown", "value": "T"}, {"type": "keyUp", "value": "T"}, {"type": "keyDown", "value": "A"}, {"type": "keyUp", "value": "A"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "4"}, {"type": "keyUp", "value": "4"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "N"}, {"type": "keyUp", "value": "N"}, {"type": "keyDown", "value": "G"}, {"type": "keyUp", "value": "G"}]}]}
+2022-07-06 17:01:47,184:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:47,184:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:47,184:DEBUG:Finished Request
+2022-07-06 17:01:49,193:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:49,296:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:49,297:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:49,297:DEBUG:Finished Request
+2022-07-06 17:01:51,312:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:01:51,385:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:51,385:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:51,385:DEBUG:Finished Request
+2022-07-06 17:01:55,403:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "2"}, {"type": "keyUp", "value": "2"}]}]}
+2022-07-06 17:01:55,518:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:55,518:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:55,518:DEBUG:Finished Request
+2022-07-06 17:01:57,530:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:57,636:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:57,636:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:57,636:DEBUG:Finished Request
+2022-07-06 17:01:59,641:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:01:59,677:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:01:59,678:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:01:59,678:DEBUG:Finished Request
+2022-07-06 17:02:02,683:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click {"id": "21e7ec2b-ff7d-4c40-b5fd-2e6e83822792"}
+2022-07-06 17:02:02,805:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/21e7ec2b-ff7d-4c40-b5fd-2e6e83822792/click HTTP/1.1" 200 14
+2022-07-06 17:02:02,806:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:02,806:DEBUG:Finished Request
+2022-07-06 17:02:04,821:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:02:04,910:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:04,911:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:04,911:DEBUG:Finished Request
+2022-07-06 17:02:06,914:INFO:Cargando insumo
+2022-07-06 17:02:08,919:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "X"}, {"type": "keyUp", "value": "X"}, {"type": "keyDown", "value": "T"}, {"type": "keyUp", "value": "T"}, {"type": "keyDown", "value": "D"}, {"type": "keyUp", "value": "D"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "1"}, {"type": "keyUp", "value": "1"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "N"}, {"type": "keyUp", "value": "N"}, {"type": "keyDown", "value": "G"}, {"type": "keyUp", "value": "G"}]}]}
+2022-07-06 17:02:09,179:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:09,180:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:09,180:DEBUG:Finished Request
+2022-07-06 17:02:11,181:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:02:11,304:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:11,304:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:11,304:DEBUG:Finished Request
+2022-07-06 17:02:13,309:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue004"}, {"type": "keyUp", "value": "\ue004"}]}]}
+2022-07-06 17:02:13,390:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:13,391:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:13,391:DEBUG:Finished Request
+2022-07-06 17:02:17,406:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "1"}, {"type": "keyUp", "value": "1"}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "5"}, {"type": "keyUp", "value": "5"}]}]}
+2022-07-06 17:02:17,517:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:17,517:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:17,517:DEBUG:Finished Request
+2022-07-06 17:02:19,532:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:02:19,649:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:19,649:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:19,650:DEBUG:Finished Request
+2022-07-06 17:02:21,660:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue007"}, {"type": "keyUp", "value": "\ue007"}]}]}
+2022-07-06 17:02:21,747:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:21,748:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:21,748:DEBUG:Finished Request
+2022-07-06 17:02:24,751:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue00c"}, {"type": "keyUp", "value": "\ue00c"}]}]}
+2022-07-06 17:02:24,782:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:24,783:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:24,783:DEBUG:Finished Request
+2022-07-06 17:02:24,784:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue00c"}, {"type": "keyUp", "value": "\ue00c"}]}]}
+2022-07-06 17:02:24,832:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/actions HTTP/1.1" 200 14
+2022-07-06 17:02:24,832:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:24,832:DEBUG:Finished Request
+2022-07-06 17:02:24,832:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "//*[@id='ext-gen600']"}
+2022-07-06 17:02:25,362:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 17:02:25,362:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"944404ca-c0c2-46a0-8c7b-42255be8d61b"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:25,362:DEBUG:Finished Request
+2022-07-06 17:02:25,362:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/944404ca-c0c2-46a0-8c7b-42255be8d61b/click {"id": "944404ca-c0c2-46a0-8c7b-42255be8d61b"}
+2022-07-06 17:02:25,472:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/944404ca-c0c2-46a0-8c7b-42255be8d61b/click HTTP/1.1" 200 14
+2022-07-06 17:02:25,473:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:25,473:DEBUG:Finished Request
+2022-07-06 17:02:26,481:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element {"using": "xpath", "value": "//button[contains(text(),'S\u00ed')]"}
+2022-07-06 17:02:26,524:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element HTTP/1.1" 200 88
+2022-07-06 17:02:26,524:DEBUG:Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"5c54a4f8-b447-4d7a-8fcc-b7d43fffdab7"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:26,525:DEBUG:Finished Request
+2022-07-06 17:02:29,535:DEBUG:POST http://localhost:50006/session/3c18575f968546ff6ca4d6f9641373fd/element/5c54a4f8-b447-4d7a-8fcc-b7d43fffdab7/click {"id": "5c54a4f8-b447-4d7a-8fcc-b7d43fffdab7"}
+2022-07-06 17:02:29,890:DEBUG:http://localhost:50006 "POST /session/3c18575f968546ff6ca4d6f9641373fd/element/5c54a4f8-b447-4d7a-8fcc-b7d43fffdab7/click HTTP/1.1" 200 14
+2022-07-06 17:02:29,890:DEBUG:Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-07-06 17:02:29,890:DEBUG:Finished Request
