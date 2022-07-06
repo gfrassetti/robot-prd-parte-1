@@ -1,6 +1,3 @@
-from cmath import isclose
-from distutils.log import debug
-from inspect import isclass
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
