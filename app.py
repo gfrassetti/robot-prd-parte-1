@@ -1,12 +1,16 @@
+from distutils.log import error
+from genericpath import isfile
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+from tkinter import messagebox
 import logging
 import os
 
@@ -15,15 +19,14 @@ path = "./FT_a_procesar"
 contenido = os.listdir(path)
 fichas = []
 
-
 for ficha in contenido:
-    if os.path.isfile(os.path.join(path, ficha)) and ficha.endswith('.xlsm'):
+    if os.path.isfile(os.path.join(path, ficha)) and ficha.endswith(".xlsm"):
         fichas.append(ficha)
 print(fichas)
 
 logging.basicConfig(
     filename="app.txt",
-    level=logging.DEBUG,
+    level=logging.INFO,
     format="%(asctime)s:%(levelname)s:%(message)s",
 )
 
@@ -38,260 +41,278 @@ import time
 # pip install openpyxl
 
 
-
 logging.info("...Iniciando...")
 
-    # driver_service = Service(executable_path="./selenium-driver/chromedriver.exe")
+# driver_service = Service(executable_path="./selenium-driver/chromedriver.exe")
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.maximize_window()
-    # URL
+# URL
 driver.get("http://vpn.grisino.com:8001/maertest")
+
 
 class Login:
     def __init__(self, user, password):
-            self.user = user
-            self.password = password
+        self.user = user
+        self.password = password
 
     def login(self):
+        try:
             logging.info("Iniciando sesion..")
             login_user = WebDriverWait(driver, 10).until(
-                expected_conditions.presence_of_element_located((By.ID, "ext-comp-1002"))
+                expected_conditions.presence_of_element_located(
+                    (By.ID, "ext-comp-1002")
+                )
             )
 
             login_user.send_keys(self.user)
 
             password_user = WebDriverWait(driver, 10).until(
-                expected_conditions.presence_of_element_located((By.ID, "ext-comp-1004"))
+                expected_conditions.presence_of_element_located(
+                    (By.ID, "ext-comp-1004")
+                )
             )
             password_user.send_keys(self.password)
 
             login_btn = driver.find_element(By.ID, "ext-gen31")
             login_btn.click()
+            logging.info("Entrando...")
+        except (Exception) as error_excepction:
+            logging.warning("Error: ", error_excepction)
+            messagebox.showerror(message=error_excepction, title="Error")
 
 
 class LoadFile:
-    def __init__(self, ficha):
-            self.ficha = ficha
+    def __init__(self, fichas):
+        self.fichas = fichas
 
     def loop(self, rango_cod_color, lista_cod_color):
-            # Iterar por cod de color
+        # Iterar por cod de color
+        for cod in rango_cod_color:
+            for i in cod:
+                lista_cod_color.append(i.value)
+                print(i.value)
+
+    def loop_cod_color(self, rango_cod_color, lista_cod_color, celda):
+        # Iterar por cod de color
+        if type(celda).__name__ == "MergedCell":
+            print("Combinada, color todos")
+            lista_cod_color.append(celda.value)
+            return True
+        else:
             for cod in rango_cod_color:
                 for i in cod:
                     lista_cod_color.append(i.value)
                     print(i.value)
-
-    def loop_cod_color(self, rango_cod_color, lista_cod_color, celda):
-            # Iterar por cod de color
-            if type(celda).__name__ == "MergedCell":
-                print("Combinada, color todos")
-                lista_cod_color.append(celda.value)
-                return True
-            else:
-                for cod in rango_cod_color:
-                    for i in cod:
-                        lista_cod_color.append(i.value)
-                        print(i.value)
-                return False
+            return False
 
     def comprobar_y_cargar(
-            self,
-            actions,
-            descripcion_validacion,
-            talles,
-            lista_cod_color,
-            cantidad_insumo_confeccion,
-            insumo_confeccion,
-        ):
-            if "TALLE" in descripcion_validacion:
-                logging.info("Cargnado insumo por talle...")
-                # Por cada talle cargar...
-                for i in talles:
+        self,
+        actions,
+        descripcion_validacion,
+        talles,
+        lista_cod_color,
+        cantidad_insumo_confeccion,
+        insumo_confeccion,
+    ):
+        if "TALLE" in descripcion_validacion:
+            logging.info("Cargnado insumo por talle...")
+            # Por cada talle cargar...
+            for i in talles:
+                time.sleep(2)
+                if i != None:
+                    logging.info("talles disponibles: ", i)
+                    print("talles disponibles: ", i)
                     time.sleep(2)
-                    if i != None:
-                        logging.info("talles disponibles: ", i)
-                        print("talles disponibles: ", i)
-                        time.sleep(2)
-                        for cod_color in lista_cod_color:
-                            if cod_color != None:
-                                self.load_insumo_por_talle(
-                                    actions,
-                                    insumo_confeccion,
-                                    cod_color,
-                                    cantidad_insumo_confeccion,
-                                    i,
-                                )
-                                print("Carga de insumo por talle finalizada...")
-                                logging.info("Carga de insumo por talle finalizada...")
-            else:
-                for i in lista_cod_color:
-                    if i != None:
-                        self.load_insumo2(
-                            actions,
-                            insumo_confeccion,
-                            i,
-                            cantidad_insumo_confeccion,
-                        )
-                    else:
-                        pass
+                    for cod_color in lista_cod_color:
+                        if cod_color != None:
+                            self.load_insumo_por_talle(
+                                actions,
+                                insumo_confeccion,
+                                cod_color,
+                                cantidad_insumo_confeccion,
+                                i,
+                            )
+                            print("Carga de insumo por talle finalizada...")
+                            logging.info("Carga de insumo por talle finalizada...")
+        else:
+            for i in lista_cod_color:
+                if i != None:
+                    self.load_insumo2(
+                        actions,
+                        insumo_confeccion,
+                        i,
+                        cantidad_insumo_confeccion,
+                    )
+                else:
+                    pass
 
     def load_insumo(self, actions, insumo, color_insumo, cantidad):
-            if insumo != None:
-                logging.info(f'Cargando el insumo {insumo}')
-                time.sleep(2)
-                actions.send_keys(insumo + "." + color_insumo)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.TAB)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(cantidad)
-                time.sleep(2)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-            else:
-                actions.send_keys(Keys.ESCAPE)
-                actions.perform()
-                actions.send_keys(Keys.ESCAPE)
-                actions.perform()
+        if insumo != None:
+            logging.info(f"Cargando el insumo {insumo}")
+            time.sleep(2)
+            actions.send_keys(insumo + "." + color_insumo)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.TAB)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(cantidad)
+            time.sleep(2)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ENTER)
+            time.sleep(2)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+        else:
+            actions.send_keys(Keys.ESCAPE)
+            actions.perform()
+            actions.send_keys(Keys.ESCAPE)
+            actions.perform()
+            logging.info("Carga de insumo finalizada")
 
     def load_insumo2(self, actions, insumo, i, cantidad):
-            if insumo != None:
-                logging.info(f'Cargando el insumo {insumo}')
-                time.sleep(2)
-                actions.send_keys(insumo + "." + i)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.TAB)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(cantidad)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.TAB)
-                actions.perform()
-            else:
-                pass
+        if insumo != None:
+            logging.info(f"Cargando el insumo {insumo}")
+            time.sleep(2)
+            actions.send_keys(insumo + "." + i)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.TAB)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(cantidad)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.TAB)
+            actions.perform()
+        else:
+            pass
 
     def load_insumo_por_talle(self, actions, insumo, color_insumo, cantidad, i):
-            if insumo != None and color_insumo != None:
-                logging.info(f'Cargando el insumo {insumo}')
-                time.sleep(1)
-                actions.send_keys(insumo + "." + color_insumo)
-                actions.perform()
-                time.sleep(1)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(Keys.TAB)
-                actions.perform()
-                time.sleep(2)
-                actions.send_keys(cantidad)
-                actions.perform()
-                time.sleep(3)
-                actions.send_keys(Keys.TAB)
-                actions.perform()
-                time.sleep(3)
-                actions.send_keys(color_insumo)
-                actions.send_keys(Keys.ENTER)
-                actions.perform()
-                time.sleep(2)
-                print(type(i))
-                if i != None:
-                    if i != "2":
-                        actions.send_keys(i)
-                        time.sleep(2)
-                        actions.perform()
-                        time.sleep(1)
-                        actions.send_keys(Keys.ENTER)
-                        actions.perform()
-                        time.sleep(1)
-                        actions.send_keys(Keys.TAB)
-                        actions.perform()
-                    else:
-                        actions.send_keys(i)
-                        actions.perform()
-                        time.sleep(1)
-                        actions.send_keys(Keys.ARROW_DOWN)
-                        actions.send_keys(Keys.ARROW_DOWN)
-                        actions.send_keys(Keys.ENTER)
-                        actions.perform()
-                        time.sleep(1)
-                        actions.send_keys(Keys.TAB)
-                        actions.perform()
+        if insumo != None and color_insumo != None:
+            logging.info(f"Cargando el insumo {insumo}")
+            time.sleep(1)
+            actions.send_keys(insumo + "." + color_insumo)
+            actions.perform()
+            time.sleep(1)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(Keys.TAB)
+            actions.perform()
+            time.sleep(2)
+            actions.send_keys(cantidad)
+            actions.perform()
+            time.sleep(3)
+            actions.send_keys(Keys.TAB)
+            actions.perform()
+            time.sleep(3)
+            actions.send_keys(color_insumo)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(2)
+            print(type(i))
+            if i != None:
+                if i != "2":
+                    actions.send_keys(i)
+                    time.sleep(2)
+                    actions.perform()
+                    time.sleep(1)
+                    actions.send_keys(Keys.ENTER)
+                    actions.perform()
+                    time.sleep(1)
+                    actions.send_keys(Keys.TAB)
+                    actions.perform()
+                else:
+                    actions.send_keys(i)
+                    actions.perform()
+                    time.sleep(1)
+                    actions.send_keys(Keys.ARROW_DOWN)
+                    actions.send_keys(Keys.ARROW_DOWN)
+                    actions.send_keys(Keys.ENTER)
+                    actions.perform()
+                    time.sleep(1)
+                    actions.send_keys(Keys.TAB)
+                    actions.perform()
 
     def load_new(self):
-            try:
-                logging.info("Cargando file...")
-                logging.info("reading excel..")
-                wb = load_workbook(f'./FT_a_procesar/{self.ficha}', data_only=True)
-                ws = wb.active
+        try:
+            time.sleep(1)
+            btn_produccion = WebDriverWait(driver, 35).until(
+                expected_conditions.presence_of_element_located(
+                    (
+                        By.XPATH,
+                        "/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button",
+                    )
+                )
+            )
 
-                time.sleep(1)
-                logging.info(f'Cargando ficha: {self.ficha}')
-                btn_produccion = WebDriverWait(driver, 35).until(
-                    expected_conditions.presence_of_element_located(
-                        (
-                            By.XPATH,
-                            "/html/body/div[1]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button",
-                        )
-                    ))
-                
-                time.sleep(1)
-                btn_produccion.click()
-                time.sleep(1)
-                btn_ficha_tecnica = WebDriverWait(driver, 35).until(
-                    expected_conditions.presence_of_element_located(
-                        (By.ID, "menuPrincipalProducciónFichas T?cnicas")
+            btn_produccion.click()
+
+            btn_ficha_tecnica = WebDriverWait(driver, 35).until(
+                expected_conditions.presence_of_element_located(
+                    (By.LINK_TEXT, "Fichas Técnicas")
+                )
+            )
+            btn_ficha_tecnica.click()
+
+            btn_ficha_tecnica2 = WebDriverWait(driver, 35).until(
+                expected_conditions.presence_of_element_located(
+                    (By.LINK_TEXT, "Fichas T?cnicas")
+                )
+            )
+            btn_ficha_tecnica2.click()
+
+            btn_maxim_ft = WebDriverWait(driver, 35).until(
+                expected_conditions.presence_of_element_located(
+                    (
+                        By.CLASS_NAME,
+                        "x-tool-maximize",
                     )
                 )
-                btn_ficha_tecnica.click()
-                time.sleep(1)
-                btn_maxim_ft = WebDriverWait(driver, 35).until(
-                    expected_conditions.presence_of_element_located(
-                        (
-                            By.XPATH,
-                            "/html/body/div[4]/div[2]/div/div/div/div[1]/div[6]/div[1]/div/div/div/div[3]",
-                        )
+            )
+            btn_maxim_ft.click()
+            btn_add_new = WebDriverWait(driver, 35).until(
+                expected_conditions.presence_of_element_located(
+                    (
+                        By.XPATH,
+                        "//button[contains(text(),'Agregar')]",
                     )
                 )
-                time.sleep(1)
-                btn_maxim_ft.click()
-                time.sleep(1)
-                btn_add_new = WebDriverWait(driver, 35).until(
-                    expected_conditions.presence_of_element_located(
-                        (
-                            By.XPATH,
-                            "/html/body/div[4]/div[2]/div/div/div/div[1]/div[6]/div[2]/div[1]/div/div/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/em/button",
-                        )
-                    )
-                )
-                btn_add_new.click()
+            )
+            time.sleep(2)
+            btn_add_new.click()
+            logging.info("Nueva ficha tecnica")
+            logging.info("reading excel..")
+
+            for self.ficha in self.fichas:
+                logging.info(f"Cargando ficha: {self.ficha}")
+                wb = load_workbook(f"./FT_a_procesar/{self.ficha}", data_only=True)
+                ws = wb.active
 
                 time.sleep(10)
 
                 input_coleccion = driver.find_element(
                     By.XPATH,
-                    "//*[@id='ext-comp-1251']",
+                    "/html/body/div[4]/div[2]/div/div/div/div[1]/div[10]/div[2]/div[1]/div/div/div/div/div/div[1]/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[1]/div/input",
                 )
                 actions = ActionChains(driver)
                 coleccion = ws["G1"].value
@@ -328,16 +349,16 @@ class LoadFile:
                     "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/em/button",
                 )
                 time.sleep(5)
+                logging.info("Agregando regla - telas corte")
                 btn_add_rule.click()
-                time.sleep(1)
-                proceso_corte = driver.find_element(By.ID, "ext-comp-1263")
-                proceso_corte.send_keys("100-CORTE ORIGINAL")
+                actions.send_keys("100-CORTE ORIGINAL")
+                actions.perform()
                 time.sleep(1)
                 actions.send_keys(Keys.ENTER)
                 actions.perform()
                 actions.send_keys(Keys.ESCAPE)
                 actions.perform()
-                time.sleep(2)
+                time.sleep(3)
 
                 nueva_entrada = driver.find_element(
                     By.XPATH,
@@ -345,14 +366,15 @@ class LoadFile:
                 )
                 time.sleep(5)
                 nueva_entrada.click()
-                time.sleep(2)
+                time.sleep(6)
 
                 agregar_insumo = driver.find_element(
                     By.XPATH,
-                    "/html/body/div[24]/div[2]/div[1]/div/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/em/button",
+                    "//table[@id='ext-comp-1322']/tbody/tr[2]/td[2]/em/button",
                 )
-                time.sleep(3)
+                time.sleep(4)
                 agregar_insumo.click()
+                logging.info("Agregando insumos telas")
                 time.sleep(1)
                 actions.send_keys(Keys.TAB)
                 actions.perform()
@@ -392,12 +414,15 @@ class LoadFile:
                     time.sleep(2)
                     actions.perform()
                     time.sleep(2)
-                    self.load_insumo(actions, insumo_2, color_insumo2, cantidad_insumo_2)
+                    self.load_insumo(
+                        actions, insumo_2, color_insumo2, cantidad_insumo_2
+                    )
                 else:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
+                    logging.info("Carga de insumos terminada")
 
                 time.sleep(2)
 
@@ -407,12 +432,15 @@ class LoadFile:
                     time.sleep(2)
                     actions.perform()
                     time.sleep(2)
-                    self.load_insumo(actions, insumo_3, color_insumo3, cantidad_insumo_3)
+                    self.load_insumo(
+                        actions, insumo_3, color_insumo3, cantidad_insumo_3
+                    )
                 else:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
+                    logging.info("Carga de insumos terminada")
 
                 time.sleep(2)
 
@@ -422,13 +450,16 @@ class LoadFile:
                     time.sleep(2)
                     actions.perform()
                     time.sleep(2)
-                    self.load_insumo(actions, insumo_4, color_insumo4, cantidad_insumo_4)
+                    self.load_insumo(
+                        actions, insumo_4, color_insumo4, cantidad_insumo_4
+                    )
 
                 else:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
+                    logging.info("Carga de insumos terminada")
 
                 time.sleep(2)
 
@@ -438,13 +469,16 @@ class LoadFile:
                     time.sleep(2)
                     actions.perform()
                     time.sleep(2)
-                    self.load_insumo(actions, insumo_5, color_insumo5, cantidad_insumo_5)
+                    self.load_insumo(
+                        actions, insumo_5, color_insumo5, cantidad_insumo_5
+                    )
 
                 else:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
+                    logging.info("Carga de insumos terminada")
 
                 time.sleep(2)
 
@@ -454,40 +488,61 @@ class LoadFile:
                     time.sleep(2)
                     actions.perform()
                     time.sleep(2)
-                    self.load_insumo(actions, insumo_6, color_insumo6, cantidad_insumo_6)
+                    self.load_insumo(
+                        actions, insumo_6, color_insumo6, cantidad_insumo_6
+                    )
                 else:
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
+                    time.sleep(1)
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
+                    logging.info("Carga de insumos terminada")
 
-                time.sleep(3)
-                btn_guardar = driver.find_element(By.XPATH, "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[2]/div[1]/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button")
-                time.sleep(5)
+                time.sleep(2)
+                btn_guardar = driver.find_element(
+                    By.XPATH,
+                    "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[2]/div[1]/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button",
+                )
+                time.sleep(2)
                 btn_guardar.click()
                 time.sleep(1)
-                btn_si = driver.find_element(By.XPATH, "//button[contains(text(),'Sí')]")
+                btn_si = driver.find_element(
+                    By.XPATH, "//button[contains(text(),'Sí')]"
+                )
                 time.sleep(2)
                 btn_si.click()
-                btn_ok = driver.find_element(By.XPATH, "//button[contains(text(),'OK')]")
+                btn_ok = driver.find_element(
+                    By.XPATH, "//button[contains(text(),'OK')]"
+                )
                 time.sleep(2)
                 btn_ok.click()
-                btn_close = driver.find_element(By.XPATH, "//div[@class='x-window-header x-unselectable x-window-draggable']/div[1]")
+                logging.info("Ficha Guardada")
+                time.sleep(4)
+                btn_close = driver.find_element(
+                    By.XPATH,
+                    "//div[@id='ext-comp-1473']/div/div/div/div/div",
+                )
+                time.sleep(3)
                 btn_close.click()
+                time.sleep(2)
+                actions.send_keys(Keys.ESCAPE)
+                actions.perform()
+
                 """ ------------------------ ---------------------------------------------------- """
-                
-                cod_art_2= ws["B2"].value
 
-                if cod_art_2 !=None:
+                cod_art_2 = ws["B3"].value
 
+                if cod_art_2 != None:
+                    logging.info(f"Cargando segundo codigo de producto: {cod_art_2}")
                     input_coleccion = driver.find_element(
                         By.XPATH,
-                        "//*[@id='ext-comp-1251']",
+                        "//*[@id='ext-comp-1252']",
                     )
                     actions = ActionChains(driver)
                     coleccion = ws["G1"].value
                     time.sleep(1)
-                    input_coleccion.send_keys(cod_art_2)
+                    input_coleccion.send_keys(coleccion)
                     time.sleep(3)
                     actions.send_keys(Keys.ENTER)
                     actions.perform()
@@ -510,39 +565,36 @@ class LoadFile:
                     molde = ws["T2"].value
                     actions.send_keys(molde)
                     actions.perform()
-                    time.sleep(4)
 
-                    btn_add_rule = driver.find_element(
-                        By.XPATH,
-                        "//button[contains(text(),'Agregar')]"
-                    )
                     time.sleep(5)
                     btn_add_rule.click()
                     time.sleep(1)
-                    proceso_corte = driver.find_element(By.ID, "ext-comp-1263")
-                    proceso_corte.send_keys("100-CORTE ORIGINAL")
+                    actions.send_keys("100-CORTE ORIGINAL")
+                    actions.perform()
                     time.sleep(1)
                     actions.send_keys(Keys.ENTER)
                     actions.perform()
                     actions.send_keys(Keys.ESCAPE)
                     actions.perform()
-                    time.sleep(2)
 
-                    nueva_entrada = driver.find_element(
+                    time.sleep(10)
+                    logging.info("Agregando entrada")
+                    nueva_entrada2 = driver.find_element(
                         By.XPATH,
                         "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/table/tbody/tr/td[3]/div/span/table/tbody/tr[2]/td[2]/em/button",
                     )
-                    time.sleep(5)
-                    nueva_entrada.click()
+                    time.sleep(10)
+                    nueva_entrada2.click()
                     time.sleep(2)
-
-                    agregar_insumo = driver.find_element(
+                    agregar_insumo2 = driver.find_element(
                         By.XPATH,
-                        "/html/body/div[24]/div[2]/div[1]/div/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/em/button",
+                        "//table[@id='ext-comp-1515']/tbody/tr[2]/td[2]/em/button",
                     )
-                    time.sleep(3)
-                    agregar_insumo.click()
-                    time.sleep(1)
+                    # "//button[starts-with(@id,'ext-gen') and @type='button' and contains(text(),'Agregar')]"
+                    time.sleep(2)
+                    agregar_insumo2.click()
+                    logging.info("Cargando insumos...")
+                    time.sleep(4)
                     actions.send_keys(Keys.TAB)
                     actions.perform()
 
@@ -576,115 +628,137 @@ class LoadFile:
                     # Si insumo existe.. agregar otro
                     # Se puede hacer una fx decoradora -----------------------------------------------------------
                     if insumo_2 != None:
-                        agregar_insumo.click()
+                        agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
                         actions.perform()
                         time.sleep(2)
-                        self.load_insumo(actions, insumo_2, color_insumo2, cantidad_insumo_2)
+                        self.load_insumo(
+                            actions, insumo_2, color_insumo2, cantidad_insumo_2
+                        )
                     else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
+                        logging.info("Carga de insumos terminada")
 
                     time.sleep(2)
 
                     if insumo_3 != None:
-                        agregar_insumo.click()
+                        agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
                         actions.perform()
                         time.sleep(2)
-                        self.load_insumo(actions, insumo_3, color_insumo3, cantidad_insumo_3)
+                        self.load_insumo(
+                            actions, insumo_3, color_insumo3, cantidad_insumo_3
+                        )
                     else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
+                        logging.info("Carga de insumos terminada")
 
                     time.sleep(2)
 
                     if insumo_4 != None:
-                        agregar_insumo.click()
+                        agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
                         actions.perform()
                         time.sleep(2)
-                        self.load_insumo(actions, insumo_4, color_insumo4, cantidad_insumo_4)
+                        self.load_insumo(
+                            actions, insumo_4, color_insumo4, cantidad_insumo_4
+                        )
 
                     else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
+                        logging.info("Carga de insumos terminada")
 
                     time.sleep(2)
 
                     if insumo_5 != None:
-                        agregar_insumo.click()
+                        agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
                         actions.perform()
                         time.sleep(2)
-                        self.load_insumo(actions, insumo_5, color_insumo5, cantidad_insumo_5)
+                        self.load_insumo(
+                            actions, insumo_5, color_insumo5, cantidad_insumo_5
+                        )
 
                     else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
+                        logging.info("Carga de insumos terminada")
 
                     time.sleep(2)
 
                     if insumo_6 != None:
-                        agregar_insumo.click()
+                        agregar_insumo2.click()
                         actions.send_keys(Keys.TAB)
                         time.sleep(2)
                         actions.perform()
                         time.sleep(2)
-                        self.load_insumo(actions, insumo_6, color_insumo6, cantidad_insumo_6)
+                        self.load_insumo(
+                            actions, insumo_6, color_insumo6, cantidad_insumo_6
+                        )
                     else:
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
                         actions.send_keys(Keys.ESCAPE)
                         actions.perform()
+                        logging.info("Carga de insumos terminada")
 
-                    time.sleep(3)
-                    btn_guardar = driver.find_element(By.XPATH, "/html/body/div[4]/div[2]/div/div/div/div[1]/div[8]/div[2]/div[1]/div/div/div/div/div/div[2]/div[1]/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/em/button")
-                    time.sleep(5)
+                    time.sleep(4)
+                    btn_guardar = driver.find_element(
+                        By.XPATH,
+                        "//table[@id='ext-comp-1302']/tbody/tr[2]/td[2]/em/button",
+                    )
+                    time.sleep(2)
                     btn_guardar.click()
                     time.sleep(1)
-                    btn_si = driver.find_element(By.XPATH, "//button[contains(text(),'Sí')]")
+                    btn_si = driver.find_element(
+                        By.XPATH, "//button[contains(text(),'Sí')]"
+                    )
                     time.sleep(2)
                     btn_si.click()
-                    btn_ok = driver.find_element(By.XPATH, "//button[contains(text(),'OK')]")
+                    logging.info("Ficha Guardada")
+                    btn_ok2 = driver.find_element(
+                        By.XPATH,
+                        "//table[@id='ext-comp-1466']/tbody/tr[2]/td[2]/em/button",
+                    )
                     time.sleep(2)
-                    btn_ok.click()
-                    btn_close = driver.find_element(By.XPATH, "//div[@class='x-window-header x-unselectable x-window-draggable']/div[1]")
-                    btn_close.click()
+                    btn_ok2.click()
+                    time.sleep(2)
+                    btn_close2 = driver.find_element(
+                        By.XPATH, "//div[@id='ext-comp-1637']/div/div/div/div/div"
+                    )
+                    btn_close2.click()
+                    time.sleep(1)
+                    messagebox.showinfo(message="Carga Finalizada", title="Info")
+                    logging.info("Carga Finalizada")
                 else:
-                    pass
+                    messagebox.showinfo(message="Carga Finalizada", title="Info")
+                    logging.info("Carga Finalizada")
 
-                # -------------------------------------------------- ---------------------------------------------------------------------------
-            except (Exception) as error_excepction:
-                logging.warning("Error: ", error_excepction)
-                logging.info("Error: ", error_excepction)
-                print(error_excepction)
+            # -------------------------------------------------- ---------------------------------------------------------------------------
+        except (Exception) as error_excepction:
+            logging.info("Error: ", error_excepction)
+            messagebox.showerror(message=error_excepction, title="Error")
+            print(error_excepction)
+            driver.close()
 
 
-        # Loggearse
-    log = Login("Gfrassetti", "Guido")
-    log.login()
+log = Login("Gfrassetti", "Guido")
+log.login()
 
-for i in fichas:
-        if i != "":
-            # Cargar Nueva ficha
-            print(fichas)
-            logging.info(f'Cargando ficha: {i}')
-            load = LoadFile(i)
-            load.load_new()
-        else:
-            logging.info("No hay fichas que cargar...")
-            pass
-                
+load = LoadFile(fichas)
+load.load_new()
