@@ -50,3 +50,265 @@
 2022-07-22 13:46:54,452:INFO:Cargando el insumo XTF001
 2022-07-22 13:47:17,481:INFO:Cargando el insumo XTF099
 2022-07-22 13:47:40,494:INFO:Cargando el insumo XTJ000
+2022-07-22 14:17:59,064:INFO:...Iniciando...
+2022-07-22 14:17:59,065:INFO:
+
+2022-07-22 14:17:59,065:INFO:====== WebDriver manager ======
+2022-07-22 14:18:01,213:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 14:18:01,216:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 14:18:01,711:INFO:Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_win32.zip
+2022-07-22 14:18:02,315:INFO:Driver has been saved in cache [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134]
+2022-07-22 14:18:06,375:INFO:Iniciando sesion..
+2022-07-22 14:18:06,693:INFO:Entrando...
+2022-07-22 14:18:38,758:INFO:Nueva ficha tecnica
+2022-07-22 14:18:38,758:INFO:reading excel..
+2022-07-22 14:18:38,758:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 14:19:22,141:INFO:Agregando regla - telas corte
+2022-07-22 14:19:41,985:INFO:Agregando insumos telas
+2022-07-22 14:19:45,029:INFO:Cargando el insumo XTF001
+2022-07-22 14:20:07,761:INFO:Cargando el insumo XTF099
+2022-07-22 14:20:30,447:INFO:Cargando el insumo XTJ000
+2022-07-22 14:20:53,087:INFO:Cargando el insumo XTA004
+2022-07-22 14:21:15,664:INFO:Cargando el insumo XTD001
+2022-07-22 14:21:35,200:INFO:Carga de insumos terminada
+2022-07-22 14:21:44,473:INFO:Ficha Guardada
+2022-07-22 14:21:53,562:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 14:22:26,928:INFO:Agregando entrada
+2022-07-22 14:22:41,267:INFO:Cargando insumos...
+2022-07-22 14:22:47,368:INFO:Cargando el insumo XTF001
+2022-07-22 14:23:10,164:INFO:Cargando el insumo XTF099
+2022-07-22 14:23:32,848:INFO:Cargando el insumo XTJ000
+2022-07-22 17:43:57,891:INFO:...Iniciando...
+2022-07-22 17:43:57,891:INFO:
+
+2022-07-22 17:43:57,891:INFO:====== WebDriver manager ======
+2022-07-22 17:43:59,990:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 17:43:59,992:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 17:44:00,291:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 17:44:05,020:INFO:Iniciando sesion..
+2022-07-22 17:44:05,354:INFO:Entrando...
+2022-07-22 17:44:36,124:INFO:Nueva ficha tecnica
+2022-07-22 17:44:36,124:INFO:reading excel..
+2022-07-22 17:44:36,124:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 17:45:18,088:INFO:Agregando regla - telas corte
+2022-07-22 17:45:38,173:INFO:Agregando insumos telas
+2022-07-22 17:45:41,299:INFO:Cargando el insumo XTF001
+2022-07-22 17:46:04,001:INFO:Cargando el insumo XTF099
+2022-07-22 17:46:26,672:INFO:Cargando el insumo XTJ000
+2022-07-22 17:46:49,219:INFO:Cargando el insumo XTA004
+2022-07-22 17:47:11,890:INFO:Cargando el insumo XTD001
+2022-07-22 17:47:31,562:INFO:Carga de insumos terminada
+2022-07-22 17:47:41,124:INFO:Ficha Guardada
+2022-07-22 17:47:50,237:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 17:48:23,557:INFO:Agregando entrada
+2022-07-22 17:48:37,941:INFO:Cargando insumos...
+2022-07-22 17:48:44,060:INFO:Cargando el insumo XTF001
+2022-07-22 17:49:06,824:INFO:Cargando el insumo XTF099
+2022-07-22 17:49:29,495:INFO:Cargando el insumo XTJ000
+2022-07-22 18:07:50,918:INFO:...Iniciando...
+2022-07-22 18:07:50,918:INFO:
+
+2022-07-22 18:07:50,918:INFO:====== WebDriver manager ======
+2022-07-22 18:07:53,165:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 18:07:53,166:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 18:07:53,319:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 18:07:57,587:INFO:Iniciando sesion..
+2022-07-22 18:07:58,023:INFO:Entrando...
+2022-07-22 18:08:33,019:INFO:Nueva ficha tecnica
+2022-07-22 18:08:33,019:INFO:reading excel..
+2022-07-22 18:08:33,019:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 18:09:15,307:INFO:Agregando regla - telas corte
+2022-07-22 18:09:35,268:INFO:Agregando insumos telas
+2022-07-22 18:09:38,411:INFO:Cargando el insumo XTF001
+2022-07-22 18:10:01,036:INFO:Cargando el insumo XTF099
+2022-07-22 18:10:23,769:INFO:Cargando el insumo XTJ000
+2022-07-22 18:10:46,362:INFO:Cargando el insumo XTA004
+2022-07-22 18:11:09,140:INFO:Cargando el insumo XTD001
+2022-07-22 18:11:28,828:INFO:Carga de insumos terminada
+2022-07-22 18:11:38,279:INFO:Ficha Guardada
+2022-07-22 18:11:47,373:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 18:12:20,916:INFO:Agregando entrada
+2022-07-22 18:12:35,251:INFO:Cargando insumos...
+2022-07-22 18:12:41,418:INFO:Cargando el insumo XTF001
+2022-07-22 18:13:04,228:INFO:Cargando el insumo XTF099
+2022-07-22 18:13:26,994:INFO:Cargando el insumo XTJ000
+2022-07-22 18:13:49,664:INFO:Cargando el insumo XTA004
+2022-07-22 18:14:12,505:INFO:Cargando el insumo XTD001
+2022-07-22 18:14:31,272:INFO:Carga de insumos terminada
+2022-07-22 18:14:40,449:INFO:Ficha Guardada
+2022-07-22 18:26:21,361:INFO:...Iniciando...
+2022-07-22 18:26:21,361:INFO:
+
+2022-07-22 18:26:21,362:INFO:====== WebDriver manager ======
+2022-07-22 18:26:23,764:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 18:26:23,765:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 18:26:23,921:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 18:26:26,979:INFO:Iniciando sesion..
+2022-07-22 18:26:27,331:INFO:Entrando...
+2022-07-22 18:26:51,142:INFO:Nueva ficha tecnica
+2022-07-22 18:26:51,142:INFO:reading excel..
+2022-07-22 18:26:51,142:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 18:27:34,444:INFO:Agregando regla - telas corte
+2022-07-22 18:27:54,440:INFO:Agregando insumos telas
+2022-07-22 18:27:57,549:INFO:Cargando el insumo XTF001
+2022-07-22 18:28:20,250:INFO:Cargando el insumo XTF099
+2022-07-22 18:28:42,951:INFO:Cargando el insumo XTJ000
+2022-07-22 18:29:05,613:INFO:Cargando el insumo XTA004
+2022-07-22 18:29:28,262:INFO:Cargando el insumo XTD001
+2022-07-22 18:29:47,910:INFO:Carga de insumos terminada
+2022-07-22 18:29:57,540:INFO:Ficha Guardada
+2022-07-22 18:30:06,672:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 18:32:04,618:INFO:...Iniciando...
+2022-07-22 18:32:04,618:INFO:
+
+2022-07-22 18:32:04,618:INFO:====== WebDriver manager ======
+2022-07-22 18:32:07,273:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 18:32:07,274:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 18:32:08,105:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 18:32:10,979:INFO:Iniciando sesion..
+2022-07-22 18:32:11,442:INFO:Entrando...
+2022-07-22 18:32:37,607:INFO:Nueva ficha tecnica
+2022-07-22 18:32:37,607:INFO:reading excel..
+2022-07-22 18:32:37,607:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 18:33:20,762:INFO:Agregando regla - telas corte
+2022-07-22 18:33:40,657:INFO:Agregando insumos telas
+2022-07-22 18:33:43,789:INFO:Cargando el insumo XTF001
+2022-07-22 18:34:06,475:INFO:Cargando el insumo XTF099
+2022-07-22 18:34:29,098:INFO:Cargando el insumo XTJ000
+2022-07-22 18:34:51,846:INFO:Cargando el insumo XTA004
+2022-07-22 18:35:14,486:INFO:Cargando el insumo XTD001
+2022-07-22 18:35:34,203:INFO:Carga de insumos terminada
+2022-07-22 18:35:43,575:INFO:Ficha Guardada
+2022-07-22 18:35:52,775:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 18:36:26,120:INFO:Agregando entrada
+2022-07-22 18:36:40,526:INFO:Cargando insumos...
+2022-07-22 18:36:46,591:INFO:Cargando el insumo XTF001
+2022-07-22 18:37:09,509:INFO:Cargando el insumo XTF099
+2022-07-22 18:37:32,259:INFO:Cargando el insumo XTJ000
+2022-07-22 18:37:54,990:INFO:Cargando el insumo XTA004
+2022-07-22 18:38:17,909:INFO:Cargando el insumo XTD001
+2022-07-22 18:38:36,385:INFO:Carga de insumos terminada
+2022-07-22 18:38:45,516:INFO:Ficha Guardada
+2022-07-22 18:39:11,829:INFO:...Iniciando...
+2022-07-22 18:39:11,829:INFO:
+
+2022-07-22 18:39:11,829:INFO:====== WebDriver manager ======
+2022-07-22 18:39:13,177:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 18:39:13,178:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 18:39:13,424:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 18:39:16,236:INFO:Iniciando sesion..
+2022-07-22 18:39:16,453:INFO:Entrando...
+2022-07-22 18:39:40,286:INFO:Nueva ficha tecnica
+2022-07-22 18:39:40,286:INFO:reading excel..
+2022-07-22 18:39:40,286:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 18:40:20,563:INFO:Agregando regla - telas corte
+2022-07-22 18:40:40,054:INFO:Agregando insumos telas
+2022-07-22 18:40:43,109:INFO:Cargando el insumo XTF001
+2022-07-22 18:41:05,515:INFO:Cargando el insumo XTF099
+2022-07-22 18:41:27,905:INFO:Cargando el insumo XTJ000
+2022-07-22 18:41:50,280:INFO:Cargando el insumo XTA004
+2022-07-22 18:42:12,717:INFO:Cargando el insumo XTD001
+2022-07-22 18:42:32,118:INFO:Carga de insumos terminada
+2022-07-22 18:42:41,319:INFO:Ficha Guardada
+2022-07-22 18:42:50,395:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 18:43:23,295:INFO:Agregando entrada
+2022-07-22 18:43:37,535:INFO:Cargando insumos...
+2022-07-22 18:43:43,627:INFO:Cargando el insumo XTF001
+2022-07-22 18:44:06,327:INFO:Cargando el insumo XTF099
+2022-07-22 18:44:28,904:INFO:Cargando el insumo XTJ000
+2022-07-22 18:44:51,511:INFO:Cargando el insumo XTA004
+2022-07-22 18:45:17,697:INFO:...Iniciando...
+2022-07-22 18:45:17,698:INFO:
+
+2022-07-22 18:45:17,698:INFO:====== WebDriver manager ======
+2022-07-22 18:45:19,074:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 18:45:19,075:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 18:45:19,197:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 18:45:21,617:INFO:Iniciando sesion..
+2022-07-22 18:45:21,849:INFO:Entrando...
+2022-07-22 18:45:45,046:INFO:Nueva ficha tecnica
+2022-07-22 18:45:45,046:INFO:reading excel..
+2022-07-22 18:45:45,046:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 18:46:25,364:INFO:Agregando regla - telas corte
+2022-07-22 18:46:44,863:INFO:Agregando insumos telas
+2022-07-22 18:46:47,925:INFO:Cargando el insumo XTF001
+2022-07-22 18:47:10,362:INFO:Cargando el insumo XTF099
+2022-07-22 18:47:32,752:INFO:Cargando el insumo XTJ000
+2022-07-22 18:47:55,158:INFO:Cargando el insumo XTA004
+2022-07-22 18:48:17,595:INFO:Cargando el insumo XTD001
+2022-07-22 18:48:36,980:INFO:Carga de insumos terminada
+2022-07-22 18:48:46,148:INFO:Ficha Guardada
+2022-07-22 18:48:55,226:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 18:49:28,050:INFO:Agregando entrada
+2022-07-22 18:49:42,260:INFO:Cargando insumos...
+2022-07-22 18:49:48,334:INFO:Cargando el insumo XTF001
+2022-07-22 18:50:10,895:INFO:Cargando el insumo XTF099
+2022-07-22 18:50:33,410:INFO:Cargando el insumo XTJ000
+2022-07-22 18:50:55,831:INFO:Cargando el insumo XTA004
+2022-07-22 18:51:18,439:INFO:Cargando el insumo XTD001
+2022-07-22 18:51:36,953:INFO:Carga de insumos terminada
+2022-07-22 18:51:46,045:INFO:Ficha Guardada
+2022-07-22 18:52:04,047:INFO:...Iniciando...
+2022-07-22 18:52:04,047:INFO:
+
+2022-07-22 18:52:04,048:INFO:====== WebDriver manager ======
+2022-07-22 18:52:05,354:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 18:52:05,354:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 18:52:05,470:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 18:52:07,892:INFO:Iniciando sesion..
+2022-07-22 18:52:08,116:INFO:Entrando...
+2022-07-22 18:52:32,088:INFO:Nueva ficha tecnica
+2022-07-22 18:52:32,088:INFO:reading excel..
+2022-07-22 18:52:32,088:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 18:53:12,266:INFO:Agregando regla - telas corte
+2022-07-22 18:53:31,830:INFO:Agregando insumos telas
+2022-07-22 18:53:34,904:INFO:Cargando el insumo XTF001
+2022-07-22 18:53:57,356:INFO:Cargando el insumo XTF099
+2022-07-22 18:54:19,777:INFO:Cargando el insumo XTJ000
+2022-07-22 18:54:42,168:INFO:Cargando el insumo XTA004
+2022-07-22 18:55:04,635:INFO:Cargando el insumo XTD001
+2022-07-22 18:55:24,021:INFO:Carga de insumos terminada
+2022-07-22 18:55:33,226:INFO:Ficha Guardada
+2022-07-22 18:55:42,401:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 18:56:15,198:INFO:Agregando entrada
+2022-07-22 18:56:29,409:INFO:Cargando insumos...
+2022-07-22 18:56:35,498:INFO:Cargando el insumo XTF001
+2022-07-22 18:56:58,089:INFO:Cargando el insumo XTF099
+2022-07-22 18:57:20,650:INFO:Cargando el insumo XTJ000
+2022-07-22 18:57:43,180:INFO:Cargando el insumo XTA004
+2022-07-22 18:58:05,741:INFO:Cargando el insumo XTD001
+2022-07-22 18:58:24,239:INFO:Carga de insumos terminada
+2022-07-22 18:58:33,346:INFO:Ficha Guardada
+2022-07-22 19:09:13,532:INFO:...Iniciando...
+2022-07-22 19:09:13,532:INFO:
+
+2022-07-22 19:09:13,532:INFO:====== WebDriver manager ======
+2022-07-22 19:09:14,887:INFO:Current google-chrome version is 103.0.5060
+2022-07-22 19:09:14,887:INFO:Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-07-22 19:09:15,005:INFO:Driver [C:\Users\Guido\.wdm\drivers\chromedriver\win32\103.0.5060.134\chromedriver.exe] found in cache
+2022-07-22 19:09:17,553:INFO:Iniciando sesion..
+2022-07-22 19:09:17,771:INFO:Entrando...
+2022-07-22 19:09:41,570:INFO:Nueva ficha tecnica
+2022-07-22 19:09:41,571:INFO:reading excel..
+2022-07-22 19:09:41,571:INFO:Cargando ficha: PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
+2022-07-22 19:10:21,708:INFO:Agregando regla - telas corte
+2022-07-22 19:10:41,238:INFO:Agregando insumos telas
+2022-07-22 19:10:44,300:INFO:Cargando el insumo XTF001
+2022-07-22 19:11:06,783:INFO:Cargando el insumo XTF099
+2022-07-22 19:11:29,189:INFO:Cargando el insumo XTJ000
+2022-07-22 19:11:51,580:INFO:Cargando el insumo XTA004
+2022-07-22 19:12:14,001:INFO:Cargando el insumo XTD001
+2022-07-22 19:12:33,386:INFO:Carga de insumos terminada
+2022-07-22 19:12:42,572:INFO:Ficha Guardada
+2022-07-22 19:12:51,649:INFO:Cargando segundo codigo de producto: G4RL10
+2022-07-22 19:13:24,502:INFO:Agregando entrada
+2022-07-22 19:13:38,727:INFO:Cargando insumos...
+2022-07-22 19:13:44,818:INFO:Cargando el insumo XTF001
+2022-07-22 19:14:07,379:INFO:Cargando el insumo XTF099
+2022-07-22 19:14:29,893:INFO:Cargando el insumo XTJ000
+2022-07-22 19:14:52,454:INFO:Cargando el insumo XTA004
+2022-07-22 19:15:15,046:INFO:Cargando el insumo XTD001
+2022-07-22 19:15:33,608:INFO:Carga de insumos terminada
+2022-07-22 19:15:42,713:INFO:Ficha Guardada
+2022-07-22 19:15:55,518:INFO:Carga Finalizada
+2022-07-22 19:15:55,518:INFO:Cargando ficha: ~$PRODUCCION BERMUDA OVER UNIT - RUSTICO.xlsm
