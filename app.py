@@ -601,8 +601,8 @@ class LoadFile:
                     insumo_1 = ws["I6"].value
                     color_inusmo = ws["L7"].value
                     color_insumo2 = ws["L9"].value
-                    cantidad_insumo_1 = str(ws["J6"].value)
-                    cantidad_insumo_2 = ws["J8"].value
+                    cantidad_insumo_1 = str(ws["K6"].value)
+                    cantidad_insumo_2 = str(ws["K8"].value)
 
                     time.sleep(2)
                     self.load_insumo(actions, insumo_1, color_inusmo, cantidad_insumo_1)
@@ -612,7 +612,7 @@ class LoadFile:
                     insumo_2 = ws["I8"].value
                     insumo_3 = ws["I10"].value
                     color_insumo3 = ws["L11"].value
-                    cantidad_insumo_3 = ws["J10"].value
+                    cantidad_insumo_3 = ws["K10"].value
                     insumo_4 = ws["I12"].value
                     insumo_5 = ws["I14"].value
                     insumo_6 = ws["I16"].value
@@ -621,9 +621,9 @@ class LoadFile:
                     color_insumo5 = ws["N5"].value
                     # XTD001
                     color_insumo6 = ws["N5"].value
-                    cantidad_insumo_4 = str(ws["J12"].value)
-                    cantidad_insumo_5 = str(ws["J14"].value)
-                    cantidad_insumo_6 = str(ws["J16"].value)
+                    cantidad_insumo_4 = str(ws["K12"].value)
+                    cantidad_insumo_5 = str(ws["K14"].value)
+                    cantidad_insumo_6 = str(ws["K16"].value)
 
                     # Si insumo existe.. agregar otro
                     # Se puede hacer una fx decoradora -----------------------------------------------------------
@@ -754,7 +754,6 @@ class LoadFile:
             logging.info("Error: ", error_excepction)
             messagebox.showerror(message=error_excepction, title="Error")
             print(error_excepction)
-            driver.close()
 
 
 log = Login("Gfrassetti", "Guido")
